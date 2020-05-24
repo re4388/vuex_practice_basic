@@ -1,5 +1,12 @@
 # vuex_practice
 
+
+
+## Tutorial Reference
+1. [Vuex Tutorial](https://www.codingame.com/playgrounds/6661/vuex-tutorial)
+2. [The Vuex Tutorial](https://flaviocopes.com/vuex/)
+
+
 ## Project setup
 ```
 npm install

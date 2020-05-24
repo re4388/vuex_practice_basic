@@ -1,19 +1,42 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="container">
+      <Counter></Counter>
+      <br />
+      <div class="columns">
+        <div class="column is-11">
+          <AddCounter></AddCounter>
+        </div>
+        <div class="column auto">
+          <RemoveCounter></RemoveCounter>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div>
+      <Form/>
+      <Display/>
+    </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Counter from "./components/Counter.vue";
+import AddCounter from "./components/AddCounter.vue";
+import RemoveCounter from "./components/RemoveCounter.vue";
+import Form from './components/Form'
+import Display from './components/Display'
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    Counter,
+    AddCounter,
+    RemoveCounter,
+    Form,
+    Display,
   }
-}
+};
 </script>
 
 <style>
